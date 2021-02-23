@@ -1,6 +1,5 @@
 build:
-	pdflatex main.tex
-	pdflatex main-mobile.tex
+	pdflatex main.tex; pdflatex main-mobile.tex
 
 optimize-images:
 	leanify images/*/*
